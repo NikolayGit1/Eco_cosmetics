@@ -1,0 +1,67 @@
+.page {
+
+  @font-face {
+    font-family: "Avenir", sans-serif;
+    src: url(//src/fonts/Avenir/Avenir_Heavy.ttf),
+         url(//src/fonts/Avenir/Avenir_Book.ttf);
+  }
+
+  &__body {
+    margin: 0;
+    background-color: #e4dfd3;
+    font-family: "Avenir", sans-serif;
+    color: #3333;
+
+    &--with-menu {
+      overflow: hidden;
+    }
+  }
+
+  &__nav-top {
+    background-color: #3333;
+    height: 100vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+
+    &:target {
+      transform: translateX(0%);
+    }
+  }
+
+  &__header {
+    margin-bottom: 100px;
+  }
+
+  &__nature {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 100px;
+  }
+
+  &__brand {
+    margin-bottom: 111px;
+  }
+
+  &__shop {
+    margin-bottom: 120px;
+  }
+
+  &__creators {
+    margin-bottom: 120px;
+  }
+
+  &__ayurvedic {
+    margin-bottom: 100px;
+  }
+
+  &__contact-us {
+    margin-bottom: 100px;
+  }
+}

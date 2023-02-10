@@ -1,0 +1,50 @@
+.shop-img {
+
+  &__item {
+    width: 320px;
+    height: 267px;
+
+    &--full {
+      display: none;
+    }
+  }
+
+  &__img {
+    width: 320px;
+    height: 267px;
+    margin-bottom: 20px;
+
+    object-fit: fill;
+  }
+
+  &__conteiner-text {
+    margin-left: 20px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__money {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    margin-top: 0;
+  }
+
+  &__conteiner-link {
+    margin-top: 133px;
+
+    text-align: center;
+  }
+}

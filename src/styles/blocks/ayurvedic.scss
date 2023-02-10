@@ -1,0 +1,130 @@
+.ayurvedic {
+  position: relative;
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+
+    width: 280px;
+    margin: 0;
+    margin-bottom: 22px;
+    margin-left: 20px;
+  }
+
+  &__img {
+    height: 400px;
+    width: 150px;
+
+    position: absolute;
+    right: 0;
+
+    background-image: url(..//..//images/Union.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  &__learnMore {
+    margin-top: 447px;
+    margin-left: 20px;
+  }
+
+  &__box-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    position: absolute;
+    top: 102px;
+    left: 15px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__item--full {
+    display: none;
+  }
+
+  &__item {
+    position: relative;
+    text-align: right;
+
+    margin: 0;
+
+    &:nth-child(1n) {
+      margin-bottom: 52px;
+    }
+
+    &:nth-child(2n) {
+      margin-bottom: 21px;
+    }
+
+    &:nth-child(3n) {
+      width: 103px;
+      margin-bottom: 36px;
+    }
+
+    &:nth-child(4n) {
+      margin-bottom: 49px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 11px;
+
+      width: 76px;
+      height: 1px;
+      margin-left: 20px;
+
+      border-radius: 4px;
+      background: #344f10;
+    }
+
+    &:nth-child(3n)::after {
+      top: 23px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: none;
+
+      width: 5px;
+      height: 5px;
+
+      border-radius: 50%;
+      background: #344f10;
+    }
+  }
+
+  &__icon {
+    text-align: center;
+
+    margin: 0 auto;
+    margin-top: 112px;
+    max-width: 280px;
+
+    &-text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #000;
+
+      margin: 0;
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

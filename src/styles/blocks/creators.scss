@@ -1,0 +1,52 @@
+.creators {
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+
+    margin: 0;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  &__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    margin: 0;
+    margin-bottom: 20px;
+    width: 247px;
+
+    &:nth-child(3) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__paragraph--full {
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    margin: 0;
+    margin-bottom: 30px;
+    width: 247px;
+  }
+
+  &__conteiner-link {
+    margin-top: 56px;
+  }
+}
+
+.box-textCreators {
+  margin-left: 20px;
+}
+
+.imgBoxCreators {
+  display: none;
+}

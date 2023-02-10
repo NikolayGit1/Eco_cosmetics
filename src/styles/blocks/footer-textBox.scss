@@ -1,0 +1,40 @@
+.footer-textBox {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #e4dfd3;
+
+  margin-left: 20px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__email {
+    text-decoration: none;
+    cursor: pointer;
+    color: #e4dfd3;
+
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  &__tel {
+    text-decoration: none;
+    cursor: pointer;
+    color: #e4dfd3;
+
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  &__paragraph {
+    width: 260px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}

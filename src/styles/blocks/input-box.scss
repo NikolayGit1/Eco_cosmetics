@@ -1,0 +1,25 @@
+.input-box {
+
+  .input {
+    width: 276px;
+    border: 0;
+    border-bottom: solid 1px #bdbdbd;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    outline: none;
+
+    background-color: #e4dfd3;
+
+    &::-webkit-input-placeholder {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #828282;
+      text-transform: capitalize;
+    }
+
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.nature {
+
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #344f10;
+
+    margin: 0;
+  }
+
+  &__paragraph {
+    display: none;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

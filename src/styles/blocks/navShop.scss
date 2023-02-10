@@ -1,0 +1,50 @@
+.navShop {
+
+  &__list {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 290px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    list-style: none;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #828282;
+
+    padding-bottom: 27px;
+
+  }
+
+  .is-normalShop {
+    position: relative;
+    padding: 0;
+
+    text-decoration: none;
+    color: #828282;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #333;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        display: block;
+        top: 26px;
+        height: 1px;
+        border-radius: 4px;
+        background: #333;
+      }
+    }
+  }
+}

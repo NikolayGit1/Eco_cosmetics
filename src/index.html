@@ -1,13 +1,468 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
+
+  <body class="page__body page__body--with-menu">
     <script type="text/javascript" src="scripts/main.js"></script>
+
+    <header class="page__header header" id="home">
+      <div class="top-actions">
+        <div class="icon-conteiner">
+          <a href="#nav-top" class="icon icon--menu"></a>
+          <a href="#" class="icon icon--logo"></a>
+          <a href="#" class="icon icon--basket"></a>
+        </div>
+      </div>
+
+      <div class="header__content">
+        <div class="conteiner">
+          <div class="box box__header">
+            <div class="slider">
+              <div class="slider__image">
+                <img
+                  class="slider__item"
+                  src="./images/a.jpg"
+                  alt="photo1">
+              </div>
+            </div>
+
+            <h1 class="header__title">
+              Brand of eco-cosmetics and magic candles
+            </h1>
+
+            <p class="header__paragraph">
+              20% of sales at a wild bird shelter
+            </p>
+
+            <a class="link link__header" href="#expertise">
+              shop
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="page__nav-top nav-top" id="nav-top">
+      <div class="top-actions">
+        <div class="icon-conteiner--menu">
+          <a href="#" class="icon icon--cross"></a>
+        </div>
+      </div>
+      <ul class="nav-top__list">
+        <li class="nav-top__item">
+          <a
+            href="#about us"
+            class="is-normalHeader"
+          >
+            shop
+          </a>
+        </li>
+
+        <li class="nav-top__item">
+          <a
+            href="#services"
+            class="is-normalHeader"
+          >
+            contact
+          </a>
+        </li>
+
+        <li class="nav-top__item">
+          <a
+            href="#testimonials"
+            class="is-normalHeader"
+          >
+            about
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="page__nature nature">
+        <h2 class="nature__title">
+          if you choose the gifts of
+          <br>nature and care about
+          <br>it’s - scroll down
+        </h2>
+
+        <p class="nature__paragraph">
+          Biologists say that birds are indicators of the environmental situation,
+          and over the past half century, the population of seabirds has declined by 70%.
+          Birds die due to environmental problems and human intervention in the natural environment.
+        </p>
+      </section>
+
+      <section class="page__brand brand">
+        <h2 class="title-section">
+          witch of mountain winds
+        </h2>
+
+        <div class="box-text">
+          <h3 class="brand__title">
+            about our brand
+          </h3>
+
+          <p class="brand__paragraph">
+            Our brand cosmetics are made from natural
+            ingredients and we are promoting them to the masses.
+            Shampoo, hair conditioner, soap - in recycled paper. Creams,
+            oils, washing products in glass containers with recycled paper labels.
+            No synthetics and microplastics in cosmetics.
+            And the packaging from it can be returned for recycling or reused.
+          </p>
+          <p class="brand__paragraph--full">
+            We are all neighbors of one big House.
+            And we must protect what we have.
+            Destroying everything around for the sake of consumerism and
+            imaginary convenience, we destroy what does not belong to us.
+            Be aware of your choice!
+          </p>
+
+          <a
+            class="learnMore"
+            href="#"
+          >
+          learn more
+          </a>
+        </div>
+
+        <div class="imgBox">
+          <img src="./images/banka.jpg" alt="a">
+          <img src="./images/banka.jpg" alt="a">
+        </div>
+      </section>
+
+      <section class="page__shop shop">
+        <h2 class="title-section">
+          shop
+        </h2>
+
+        <h3 class="shop__title">
+          shop
+        </h3>
+
+        <nav class="navShop" id="nav">
+          <ul class="navShop__list">
+            <li class="navShop__item">
+              <a
+                href="#about us"
+                class="is-normalShop"
+              >
+                face
+              </a>
+            </li>
+
+            <li class="navShop__item">
+              <a
+                href="#services"
+                class="is-normalShop"
+              >
+                body
+              </a>
+            </li>
+
+            <li class="navShop__item">
+              <a
+                href="#testimonials"
+                class="is-normalShop"
+              >
+                hair
+              </a>
+            </li>
+
+            <li class="navShop__item">
+              <a
+                href="#contact us"
+                class="is-normalShop"
+              >
+                candles
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="shop-img">
+          <div class="shop-img__item">
+            <img
+              class="shop-img__img"
+              src="./images/shop1.jpg"
+              alt="a"
+            >
+            <div class="shop-img__conteiner-text">
+              <h4 class="shop-img__name">Hydrophilic oil</h4>
+              <h5 class="shop-img__money">160 uah</h5>
+            </div>
+          </div>
+
+          <div class="shop-img__item--full">
+            <img src="./images/shop2.jpg" alt="a">
+            <h4></h4>
+            <h5></h5>
+          </div>
+
+          <div class="shop-img__item--full">
+            <img src="./images/shop3.jpg" alt="a">
+            <h4></h4>
+            <h5></h5>
+          </div>
+        </div>
+
+        <div class="shop-img__conteiner-link">
+          <a
+            class="link link__shop"
+            href="#"
+          >
+            all products
+          </a>
+        </div>
+      </section>
+
+      <section class="page__creators creators">
+        <h2 class="title-section">
+          about the creators
+        </h2>
+
+        <div class="box-textCreators">
+          <h3 class="creators__title">
+            about the creators
+          </h3>
+
+          <p class="creators__paragraph">
+            My name is Victoria, I’m a master at candle making and natural cosmetics.
+            In the past, a cynologist, was engaged in herbs, made layouts on the Tarot.
+          </p>
+          <p class="creators__paragraph">
+            I am also a volunteer to save wild birds in distress,
+            a consultant to the Phoenix Wildlife Rehabilitation Center,
+            a member of the Society for the Conservation of Birds
+            of Ukraine with the support of Birdlife International.
+          </p>
+          <p class="creators__paragraph--full">
+            My husband and I live in the Carpathian region in the city of Chernivtsi.
+            I dream of my center for the rehabilitation of wild birds,
+            as it is very difficult to rescue birds in a rented communal apartment.
+          </p>
+
+          <a
+            class="learnMore"
+            href="#"
+          >
+          learn more
+          </a>
+
+          <div class="creators__conteiner-link">
+            <a
+              class="link link__creators"
+              href="#"
+            >
+            to contact us
+            </a>
+          </div>
+        </div>
+
+        <div class="imgBoxCreators">
+          <img src="./images/creator.jpg" alt="a">
+        </div>
+      </section>
+
+      <section class="page__ayurvedic ayurvedic">
+        <h2 class="title-section">Ingredients</h2>
+        <h3 class="ayurvedic__title">ayurvedic tooth powder</h3>
+
+        <div class="ayurvedic__img"></div>
+
+        <div class="ayurvedic__box-text">
+          <p class="ayurvedic__item">Kaolin</p>
+
+          <p class="ayurvedic__item">
+            Sivak
+            <span class="ayurvedic__item--full">(Persian salvador)</span>
+          </p>
+
+          <p class="ayurvedic__item">Calcium carbonate</p>
+          <p class="ayurvedic__item">Licorice root</p>
+          <p class="ayurvedic__item">Turmeric</p>
+        </div>
+
+        <div class="ayurvedic__learnMore">
+          <a
+            class="learnMore"
+            href="#"
+          >
+            learn more
+          </a>
+        </div>
+
+        <div class="ayurvedic__icon">
+          <img src="./images/Group10.svg" alt="a">
+          <h4 class="ayurvedic__icon-text">No synthetics and microplastics</h4>
+
+          <img src="./images/Group1.svg" alt="a">
+          <h4 class="ayurvedic__icon-text">product packaging can be recycled or reused</h4>
+
+          <img src="./images/Group9.svg" alt="a">
+          <h4 class="ayurvedic__icon-text">only natural ingredients</h4>
+        </div>
+      </section>
+
+      <section class="page__contact-us contact-us">
+        <h2 class="title-section">
+          help
+        </h2>
+
+        <h3 class="contact-us__title">
+          contact us
+        </h3>
+        <p class="contact-us__paragraph">
+          We will help you choose
+          a product that suits you and answer your other questions
+        </p>
+
+        <div class="input-box">
+          <input
+            class="input"
+            type="text"
+            name="name"
+            placeholder="your name"
+            autocomplete="off"
+            maxlength="20"
+            required
+            >
+
+          <input
+            class="input"
+            name="email"
+            type="email"
+            placeholder="e-mail"
+            autocomplete="off"
+            required
+          >
+
+          <input
+            class="input"
+            type="tel"
+            name="phone"
+            placeholder="phone number"
+            autocomplete="off"
+            required
+          >
+
+          <input
+            class="input"
+            type="text"
+            name="message"
+            placeholder="your message"
+            autocomplete="off"
+            maxlength="100"
+            required
+          >
+        </div>
+
+        <div class="contact-us__img">
+          <img src="./images/contactus.jpg" alt="a">
+        </div>
+
+        <a
+          class="link link__contact-us"
+          href="#"
+        >
+          send a message
+        </a>
+      </section>
+
+      <footer class="page__footer footer">
+        <nav class="nav-footer">
+          <ul class="nav-footer__list">
+            <li class="nav-footer__item">
+              <a
+                href="#about us"
+                class="is-normalFooter"
+              >
+                Shop
+              </a>
+            </li>
+
+            <li class="nav-footer__item">
+              <a
+                href="#services"
+                class="is-normalFooter"
+              >
+                Contact
+              </a>
+            </li>
+
+            <li class="nav-footer__item">
+              <a
+                href="#testimonials"
+                class="is-normalFooter"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__social-box">
+          <img
+            class="footer__social-box__facebook"
+            src="./images/facebook.svg"
+            alt="facebook"
+          >
+
+          <img
+            class="footer__social-box__instagram"
+            src="./images/inst.svg"
+            alt="instagram"
+          >
+        </div>
+
+        <p class="footer__copyright">
+          Copyright&#169; 2019 witch of mountain winds
+        </p>
+
+        <div class="footer-textBox">
+          <h1 class="footer-textBox__title">Ukraine</h1>
+          <a
+            class="footer-textBox__email"
+            href="#"
+          >
+            support.mountain@gmail.com
+          </a>
+
+          <a
+            class="footer-textBox__tel"
+            href="+380934476839"
+          >
+            +380934476839
+          </a>
+
+          <p class="footer-textBox__paragraph">
+            Support is available Monday - Friday 9am-6pm
+          </p>
+        </div>
+
+        <p class="footer__copyright--smart">
+          &#169; 2019 witch of mountain winds
+        </p>
+
+        <div class="footer__social-box--full">
+          <img
+            class="footer__social-box__facebook"
+            src="./images/facebook.svg"
+            alt="facebook"
+          >
+
+          <img
+            class="footer__social-box__instagram"
+            src="./images/inst.svg"
+            alt="instagram"
+          >
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

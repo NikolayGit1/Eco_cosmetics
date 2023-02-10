@@ -1,0 +1,28 @@
+.nav-footer {
+  margin-left: 20px;
+
+  &__list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    list-style: none;
+    cursor: pointer;
+
+    padding-bottom: 11px;
+
+    &:first-child {
+      padding-top: 30px;
+    }
+  }
+}
+
+.is-normalFooter {
+  color: #e4dfd3;
+  text-decoration: none;
+}

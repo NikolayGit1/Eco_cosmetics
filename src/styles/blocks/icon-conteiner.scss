@@ -1,0 +1,14 @@
+.icon-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 20px;
+  padding-bottom: 25px;
+
+  &--menu {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+}

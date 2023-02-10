@@ -1,7 +1,25 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "utils/mixins";
 
-body {
-  background: $c-gray;
-}
+@import url(./blocks/header.scss);
+@import url(./blocks/page.scss);
+@import url(./blocks/top-actions.scss);
+@import url(./blocks/link.scss);
+@import url(./blocks/slider.scss);
+@import url(./blocks/box.scss);
+@import url(./blocks/nature.scss);
+@import url(./blocks/brand.scss);
+@import url(./blocks/title-section.scss);
+@import url(./blocks/learnMore.scss);
+@import url(./blocks/shop.scss);
+@import url(./blocks/navShop.scss);
+@import url(./blocks/shop-img.scss);
+@import url(./blocks/creators.scss);
+@import url(./blocks/ayurvedic.scss);
+@import url(./blocks/contact-us.scss);
+@import url(./blocks/input-box.scss);
+@import url(./blocks/footer.scss);
+@import url(./blocks/nav-footer.scss);
+@import url(./blocks/footer-textBox.scss);
+@import url(./blocks/nav-top.scss);
+@import url(./blocks/icon.scss);
+@import url(./blocks/icon-conteiner.scss);
